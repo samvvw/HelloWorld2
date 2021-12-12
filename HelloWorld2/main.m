@@ -67,7 +67,7 @@ int main(int argc, const char * argv[]) {
         Employee *employeeInstance  = [[Employee alloc]init];
         Employee *employee  = [[Employee alloc]init];
         
-        [employeeInstance setName: @"Sam"];
+        [employeeInstance setName: @"John"];
         [employeeInstance setAge:31];
         [employeeInstance setSalary:68.50];
         [employeeInstance print];
